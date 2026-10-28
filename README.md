@@ -12,6 +12,7 @@ The lab contains one Cisco 2911 router, one Cisco 2960 switch and three PCs. Rou
 | 10 | ADMIN | Fa0/1 | 192.168.10.0/24 |
 | 20 | STAFF | Fa0/2 | 192.168.20.0/24 |
 | 30 | SERVERS | Fa0/3 | 192.168.30.0/24 |
+
 ![VLAN configuration](screenshots/02-vlan-configuration.png)
 
 ### IP Addressing 
@@ -20,6 +21,7 @@ The lab contains one Cisco 2911 router, one Cisco 2960 switch and three PCs. Rou
 | PC0 — Admin | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 |
 | PC1 — Staff | 192.168.20.10 | 255.255.255.0 | 192.168.20.1 |
 | PC2 — Servers | 192.168.30.10 | 255.255.255.0 | 192.168.30.1 |
+
 ![Admin PC IP configuration](screenshots/05a-pc0-admin-ip.png)
 
 ![Staff PC IP configuration](screenshots/05b-pc1-staff-ip.png)
