@@ -3,6 +3,7 @@ A Cisco Packet Tracer lab demonstrating VLAN segmentation, inter-VLAN routing, t
 
 ## Network Topology
 The lab contains one Cisco 2911 router, one Cisco 2960 switch and three PCs. Router-on-a-stick routing enables communication between the VLANs, while an extended ACL restricts traffic from the Staff subnet to the Servers subnet.
+
 ![Network topology](screenshots/01-network-topology.png)
 
 ## Network Design
