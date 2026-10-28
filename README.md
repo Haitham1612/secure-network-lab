@@ -29,12 +29,14 @@ The lab contains one Cisco 2911 router, one Cisco 2960 switch and three PCs. Rou
 ![Servers PC IP configuration](screenshots/05c-pc2-servers-ip.png)
 ## Trunking and Inter-VLAN Routing 
 The switch-to-router link uses IEEE 802.1Q trunking to carry VLANs 10, 20 and 30. Router sub interfaces on GigabitEthernet0/0 provide the default gateway for each VLAN.
+
 ![Trunk configuration](screenshots/03-trunk-configuration.png)
 
 ![Router subinterfaces](screenshots/04-router-subinterfaces.png)
 
 ## Security: Extended ACL
 The extended ACL BLOCK-STAFF-TO-SERVERS is applied outbound on router sub interface GigabitEthernet0/0.30.
+
 ![ACL configuration](screenshots/06-acl-configuration.png)
 
 ![ACL interface placement](screenshots/07-acl-interface-placement.png)
